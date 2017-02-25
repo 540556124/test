@@ -19,8 +19,25 @@
 	text-shadow:1px 1px 0 rgba(255,255,255,.5);
 }
 .circle p i{
-	font-size:50px;
-	line-height:0px;
+	display: block;
+	width: 32px;
+	height:32px;
+	margin: 0 auto;
+}
+.circle p i.icon-a{
+	background: url(../images/1.png) no-repeat;
+}
+.circle p i.icon-b{
+	background: url(../images/2.png) no-repeat;
+}
+.circle p i.icon-c{
+	background: url(../images/3.png) no-repeat;
+}
+.circle p i.icon-d{
+	background: url(../images/4.png) no-repeat;
+}
+.circle p i.icon-e{
+	background: url(../images/5.png) no-repeat;
 }
 .circle:nth-child(1){
 	color:#4d9683;
